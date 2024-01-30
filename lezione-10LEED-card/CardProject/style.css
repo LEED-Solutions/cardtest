@@ -1,0 +1,373 @@
+#videosfondo {
+    width: 100vh;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+body {
+    margin-top: 40px;
+    background-color: rgba(228, 228, 228, 0.726);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+article {
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 8px 2px rgba(164, 134, 182, 0.603);
+    border-radius: 10px;
+    overflow: auto;
+}
+
+article:hover {
+    box-shadow: 0px 0px 8px 4px rgb(158, 87, 180);
+}
+
+header {
+    background-size: 300px;
+    background-image:
+        linear-gradient(90deg, rgb(214 143 231 / 54%), rgb(224 6 6 / 25%)), url(img/doublejuuzou.jpg);
+    background-size: 100%;
+    background-position: center;
+    height: 220px;
+    /* border-radius: 10px */
+}
+
+img {
+    max-width: 200px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    /* top: 100px;
+    margin-bottom: 70px; */
+}
+
+#imgdown {
+    top: 100px;
+    margin-bottom: 70px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.89);
+    padding: 10px 50px;
+}
+
+section h1 {
+    padding: 70px 20px 10px 20px;
+    font-size: 30px;
+    word-spacing: 30px;
+}
+
+.nome {
+    font-size: 20px;
+}
+
+.certificated {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.main {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    display: list-item;
+    list-style-type: "✅";
+    padding-inline-start: 1px;
+}
+
+ul :nth-child(n+3) {
+    display: list-item;
+    list-style-type: "📖";
+    padding-inline-start: 1px;
+}
+
+.video {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+iframe {
+    width: 399px;
+    height: 196px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.bottone a {
+    border: 1px solid rgba(33, 122, 45, 0.637);
+    border-radius: 10px;
+    color: rgba(33, 122, 45, 0.637);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.bottone a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgba(33, 122, 45, 0.637);
+    cursor: pointer;
+}
+
+.bottone {
+    text-align: center;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div .bottone::marker {
+    background-color: rgba(226, 151, 236, 0.295);
+}
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+.logobrand {
+    max-width: 110px;
+    position: relative;
+    bottom: 50px;
+}
+
+.footer-distributed {
+    background: #000000cc;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    font: bold 16px sans-serif;
+    text-align: center;
+    padding: 5px 10px 4px;
+    overflow: hidden;
+    font-family: Roboto;
+}
+
+section .secfoot {
+    width: 100%;
+    display: inline-block;
+    background: #ccc;
+    height: 60vh;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: underline;
+    font-family: Roboto;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    float: center;
+    font-family: Roboto;
+    padding: 0;
+}
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Roboto', cursive;
+    margin: 0 auto;
+    font-family: Roboto;
+}
+
+.footer-distributed h3 span {
+    color: #5383d3;
+    font-family: Roboto;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 0 0 10px;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+    font-family: Roboto;
+}
+
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+    font-family: Roboto;
+}
+
+/* Footer social icons */
+
+.footer-distributed .footer-icons {
+    margin-top: 40px;
+    font-family: Roboto;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 22px;
+    font-family: Roboto;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    font-family: Roboto;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    float: right;
+    font-family: Roboto;
+}
+
+.footer-distributed .footer-right p {
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px 42px 0 0;
+    color: #ffffff;
+    font-family: Roboto;
+}
+
+/* The contact form */
+
+.footer-distributed form {
+    display: inline-block;
+    font-family: Roboto;
+}
+
+.footer-distributed form input,
+.footer-distributed form textarea {
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #1f2022;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    font-family: Roboto;
+
+    font: inherit;
+    font-size: 14px;
+    font-weight: normal;
+    color: #d1d2d2;
+
+    width: 400px;
+    padding: 18px;
+}
+
+.footer-distributed ::-webkit-input-placeholder {
+    color: #5c666b;
+}
+
+.footer-distributed ::-moz-placeholder {
+    color: #5c666b;
+    opacity: 1;
+}
+
+.footer-distributed :-ms-input-placeholder {
+    color: #5c666b;
+}
+
+
+.footer-distributed form input {
+    height: 55px;
+    margin-bottom: 15px;
+}
+
+.footer-distributed form textarea {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-distributed form button {
+    border-radius: 3px;
+    background-color: #33383b;
+    color: #ffffff;
+    border: 0;
+    padding: 15px 50px;
+    font-weight: bold;
+    float: right;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 1000px) {
+
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-company-name {
+        font-size: 12px;
+    }
+
+    .footer-distributed form input,
+    .footer-distributed form textarea {
+        width: 250px;
+    }
+
+    .footer-distributed form button {
+        padding: 10px 35px;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .footer-distributed {
+        padding: 30px;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-right {
+        float: none;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    .footer-distributed .footer-left {
+        margin-bottom: 40px;
+    }
+
+    .footer-distributed form {
+        margin-top: 30px;
+    }
+
+    .footer-distributed form {
+        display: block;
+    }
+
+    .footer-distributed form button {
+        float: none;
+    }
+}
